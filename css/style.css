@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,600,700,800,900|Ubuntu:300,400,500&display=swap");
+/* font-family: "Playfair Display", serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+header nav {
+  width: 40%;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+}
+
+.banner {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+.banner img {
+  width: 100%;
+}
+
+.content,
+.photodiary {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.flexbox1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+.box {
+  width: 40%;
+}
+
+.box img {
+  width: 100%;
+}
+.flexbox2 {
+  display: flex;
+  justify-content: space-between;
+}
+.box h5,
+.photodiary h5 {
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+  color: #b4ad9e;
+  margin: 20px 0;
+  font-weight: normal;
+}
+.box h1,
+.photodiary h1,
+.signup h1 {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  margin: 20px 0;
+  font-size: 30px;
+}
+.box p,
+.photodiary p {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  margin: 20px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.news {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+.signup {
+  position: relative;
+  margin-bottom: 50px;
+}
+.send {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.signup input {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid;
+  width: 350px;
+  padding: 10px;
+}
+
+.bottom {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.load {
+  padding: 50px;
+  margin-bottom: 100px;
+}
+
+.loadbtn {
+  text-align: center;
+}
+.loadbtn input[type="button"] {
+  padding: 10px 11px;
+  border: none;
+  border: 1px solid;
+  text-transform: uppercase;
+  background: transparent;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: #626262;
+}
+
+footer {
+  padding: 20px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left ul,
+.right ul {
+  list-style: none;
+  display: flex;
+}
+
+/* .left a,
+.right a {
+  display: inline-block;
+} */
+
+.left ul li,
+.right ul li {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left ul li a,
+.right a {
+  text-decoration: none;
+  color: #626262;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.fa-color {
+  color: #626262;
+}
